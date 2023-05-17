@@ -11,7 +11,7 @@ Game Lobby is a part of the Spichki Game project. This microservice provide gPRC
 
 
 #### Headers hashmaps:
-```python
+```ruby
 header:1001  ->  {status: 'OPEN', max_players: 3}
 header:1002  ->  {status: 'FULL', max_players: 2}
 header:1003  ->  {status: 'FULL', max_players: 5}
