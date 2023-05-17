@@ -11,17 +11,17 @@ Game Lobby is a part of the Spichki Game project. This microservice provide gPRC
 
 
 #### Headers hashmaps:
-```yaml
-header:1001  ->  { status: "FULL", max_players: 2 }
-header:1002  ->  { status: "OPEN", max_players: 3 }
-header:1003  ->  { status: "PLAY", max_players: 4 }
-header:1004  ->  { status: "OPEN", max_players: 4 }
-header:1005  ->  { status: "PLAY", max_players: 6 }
+```python
+header:1001  ->  {status: "FULL", max_players: 2}
+header:1002  ->  {status: "OPEN", max_players: 3}
+header:1003  ->  {status: "PLAY", max_players: 4}
+header:1004  ->  {status: "OPEN", max_players: 4}
+header:1005  ->  {status: "PLAY", max_players: 6}
 
 ```
 
 #### Status sets:
-```yaml
+```ruby
 status:OPEN  ->  {1002, 1004}
 status:FULL  ->  {1001}
 status:PLAY  ->  {1005, 1003}
@@ -29,7 +29,7 @@ status:PLAY  ->  {1005, 1003}
 ```
 
 #### Max players sets:
-```yaml
+```python
 max_players:2   ->  {1001}
 max_players:3   ->  {1002}
 max_players:4   ->  {1003, 1004}
@@ -43,7 +43,7 @@ max_players:10  ->  (nil)
 ```
 
 #### Group sets:
-```yaml
+```rust
 group:1001  ->  {1001, 1006}
 group:1002  ->  {1002}
 group:1003  ->  {1003, 1008, 1013}
