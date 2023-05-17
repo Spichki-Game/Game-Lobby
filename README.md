@@ -29,7 +29,7 @@ status:PLAY  ->  {1005, 1003}
 ```
 
 #### Max players sets:
-```common-lisp
+```python
 max_players:2   ->  {1001}
 max_players:3   ->  {1002}
 max_players:4   ->  {1003, 1004}
