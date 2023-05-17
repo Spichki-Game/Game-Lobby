@@ -29,16 +29,16 @@ status:PLAY  ->  {1005, 1003}
 ```
 
 #### Max players sets:
-```python
+```schema
 max_players:2   ->  {1001}
 max_players:3   ->  {1002}
 max_players:4   ->  {1003, 1004}
-max_players:5   ->  None
+max_players:5   ->  (nil)
 max_players:6   ->  {1005}
-max_players:7   ->  None
-max_players:8   ->  None
-max_players:9   ->  None
-max_players:10  ->  None
+max_players:7   ->  (nil)
+max_players:8   ->  (nil)
+max_players:9   ->  (nil)
+max_players:10  ->  (nil)
 
 ```
 
